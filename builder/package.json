@@ -1,0 +1,24 @@
+{
+  "name": "blogpost",
+  "version": "2.0.0",
+  "description": "Blogpost theme",
+  "main": "gulpfile.js",
+  "prepublish": "bower install",
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
+  "author": "AWD-Studio",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "main-bower-files": "^2.13.1"
+  }
+}

@@ -1,0 +1,22 @@
+name        = AWD Start
+description = AWD Start theme
+core        = 7.x
+version     = 2.0
+
+stylesheets[all][] = assets/css/libs.css
+stylesheets[all][] = assets/css/style.css
+stylesheets[all][] = assets/css/custom.css
+
+; scripts[] = assets/js/libs.js
+scripts[] = assets/js/awd_start.js
+
+regions[header]         = Header
+regions[content]        = Content
+regions[left_second]    = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer]         = Footer
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
