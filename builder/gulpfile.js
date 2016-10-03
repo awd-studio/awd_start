@@ -177,6 +177,7 @@ gulp.task('watch', function () {
   gulp.watch([path.src.sass + _ext('scss'), '!' + path.src.sass + 'inline/'], ['primeCSS']);
   gulp.watch([path.src.sass + 'inline/' + _ext('scss')], ['inlineCSS']);
   gulp.watch([path.src.lib.css + _ext('css')], ['libCSS']);
+  gulp.watch([path.src.lib.js + _ext('js')], ['libJS']);
 });
 
 /**
